@@ -44,8 +44,8 @@ const Dashboard = () => {
         categories.map((category) =>
           category.id === categoryId
             ? { ...category, widgets: [...category.widgets, newWidget] }
-            : category
-        )
+            : category,
+        ),
       );
     }
   };
@@ -57,18 +57,18 @@ const Dashboard = () => {
           ? {
               ...category,
               widgets: category.widgets.filter(
-                (widget) => widget.id !== widgetId
+                (widget) => widget.id !== widgetId,
               ),
             }
-          : category
-      )
+          : category,
+      ),
     );
   };
 
   const filteredCategories = categories.map((category) => ({
     ...category,
     widgets: category.widgets.filter((widget) =>
-      widget.title.toLowerCase().includes(searchTerm.toLowerCase())
+      widget.title.toLowerCase().includes(searchTerm.toLowerCase()),
     ),
   }));
 
