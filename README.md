@@ -25,7 +25,7 @@ Follow these steps to set up and run the project on your local machine.
 
 1. **Clone the repository**:
 
-   git clone https://github.com/your-username/dashboard-app.git
+   git clone https://github.com/RM1805/accuknox_assignment.git
 
 2. **Navigate to the project directory**:
 
