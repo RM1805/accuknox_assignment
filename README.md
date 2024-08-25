@@ -57,6 +57,9 @@ Follow these steps to set up and run the project on your local machine.
     Add a Widget: Click the "Add Widget" button within a category to add a new widget with a title and description.
     Remove a Widget: Click the remove button on a widget to delete it from the category.
     Search for Widgets: Use the search bar to find widgets by title across all categories.
+    
 
+### Live Website
 
+   Live Link - https://accuknox-assignment.onrender.com/
 
